@@ -1,0 +1,10 @@
+
+.cardInfo{
+    transition: transform 0.1s;
+}
+.cardInfo:hover{
+
+        transform: scale(1.1);
+      
+        /* cursor: pointer; */
+}

@@ -36,13 +36,13 @@ export const Information = () => {
                     </div>
                 </div>
 
+             
+
                 <div className='cardInfo rounded-3 m-4 d-flex  flex-column  text-center border border-secondary-subtle shadow' style={{ width: '250px', height: '300px' }} >
-                    <div className=' fw-bold rounded-top-3 text-center h5 py-3 ' style={{ backgroundColor: 'var(--primary-extra-light-color)' }}> Identification</div>
-                    <div className='text-secondary text-center'>Identification such as <br />
-                        a Social Security,<br /> Driver's License, or<br />
-                        Social Insurance</div>
-                    <div>
-                        <img src={id} alt='individual' height='140px' ></img>
+                    <div className=' fw-bold rounded-top-3 text-center h5 py-3 ' style={{ backgroundColor: 'var(--primary-extra-light-color)' }}> Date of Service</div>
+                    <div className='text-secondary text-center'>The date you want <br />your service to start</div>
+                    <div className="mt-4">
+                        <img src={calender} alt='Date of Service' height='140x' ></img>
                     </div>
 
 
@@ -51,11 +51,14 @@ export const Information = () => {
                 </div>
 
 
+
                 <div className='cardInfo rounded-3 m-4 d-flex  flex-column  text-center border border-secondary-subtle shadow' style={{ width: '250px', height: '300px' }} >
-                    <div className=' fw-bold rounded-top-3 text-center h5 py-3 ' style={{ backgroundColor: 'var(--primary-extra-light-color)' }}> Date of Service</div>
-                    <div className='text-secondary text-center'>The date you want <br />your service to start</div>
-                    <div className="mt-4">
-                        <img src={calender} alt='Date of Service' height='140x' ></img>
+                    <div className=' fw-bold rounded-top-3 text-center h5 py-3 ' style={{ backgroundColor: 'var(--primary-extra-light-color)' }}> Identification</div>
+                    <div className='text-secondary text-center'>Identification such as <br />
+                        a Social Security,<br /> Driver's License, or<br />
+                        Social Insurance</div>
+                    <div>
+                        <img src={id} alt='individual' height='140px' ></img>
                     </div>
 
 

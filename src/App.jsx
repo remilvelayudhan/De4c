@@ -16,11 +16,15 @@ import { Footer } from './components/footer/Footer';
 import { Account } from './page/account/Account';
 import { Information } from './page/information/Information';
 import { Address } from './page/address/Address';
-import { Date } from './page/date/Date';
+import { CalenderDate } from './page/date/CalenderDate';
 import { AccountInfo } from './page/accountInfo/AccountInfo';
 import { Header } from './components/header/Header';
 import { Home } from './page/home/Home';
 import { Layout } from './page/layout/Layout';
+import { Preference } from './page/preference/Preference';
+import { ConfirmOrder } from './page/confirmOrder/ConfirmOrder';
+import { Profile } from './page/profile/Profile';
+import { AddressDeatils } from './page/addressDetails/AddressDeatils';
 
 function App() {
 
@@ -33,10 +37,12 @@ function App() {
           <Route path='/account' element={<Account />} />
           <Route path='/account-info' element={<AccountInfo />} />
           <Route path='/address' element={<Address />} />
-         
-          <Route path='/date' element={<Date />} />
+          <Route path='/address-details' element={<AddressDeatils />} />
+          <Route path='/date' element={<CalenderDate />} />
           <Route path='/info' element={<Information />} />
-
+          <Route path='/preference' element={<Preference />} />
+          <Route path='/confirmorder' element={<ConfirmOrder />} />
+          <Route path='/profile' element={<Profile />} />
         </Route>
 
       </>

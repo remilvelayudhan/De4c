@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <footer className='container-fluid p-0 fixed-bottom border-top border-3 '>
+    <footer className='container-fluid p-0 mt-2  bottom-0 border-top border-3 '>
     <section className='text-center my-2 '>
         <div >
             <i className="bi bi-facebook h2 text-center m-3 " style={{ color: 'var(--primary-color)' }}></i>
